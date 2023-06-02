@@ -7,106 +7,140 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css" integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./css/style.css">
     <title>Portfolio</title>
   </head>
   <body>
-    <header>
-      <nav>
-        <a href="./index.html" class="logo link">Web<span class="logo-studio">Studio</span></a>
-        <ul class="list">
-          <li class="nav-main"><a href="./index.html" class="nav-main_link link">Studio</a></li>
-          <li class="nav-main"><a href="./portfolio.html" class="nav-main_link link">Portfolio</a></li>
-          <li class="nav-main"><a href="" class="nav-main_link link">Contacts</a></li>
-        </ul>
-      </nav>
-      <address class="header-call">
-        <ul class="list">
-          <li class="adress-info"><a href="mailto:info@devstudio.com" class="adress-info_link link">info@devstudio.com</a></li>
-          <li class="adress-info"><a href="tel:+110001111111" class="adress-info_link link">+11 (000) 111-11-11</a></li>
-        </ul>
-      </address>
+    <header class="header">
+      <div class="header-menu container">
+        <nav class="navigation">
+          <a href="./index.html" class="logo link">Web<span class="logo-studio">Studio</span></a>
+          <ul class="list menu">
+            <li class="nav-main"><a href="./index.html" class="nav-main_link link">Studio</a></li>
+            <li class="nav-main"><a href="./portfolio.html" class="nav-main_link link">Portfolio</a></li>
+            <li class="nav-main"><a href="" class="nav-main_link link">Contacts</a></li>
+          </ul>
+        </nav>
+        <address class="header-call">
+          <ul class="list menu-adress">
+            <li class="adress-info"><a href="mailto:info@devstudio.com" class="adress-info_link link">info@devstudio.com</a></li>
+            <li class="adress-info"><a href="tel:+110001111111" class="adress-info_link link">+11 (000) 111-11-11</a></li>
+          </ul>
+        </address>
+      </div>
     </header>
-    <main>
-      <section>
-        <h1>Content</h1>
-        <ul class="list">
+    
+    <main class="main">
+      <section class="container">
+        <h1 hidden>Content</h1>
+        <ul class="list main-button_first">
         <li><button type="button" class="main-button">All</button></li>
         <li><button type="button" class="main-button">Web Site</button></li>
         <li><button type="button" class="main-button">App</button></li>
         <li><button type="button" class="main-button">Design</button></li>
         <li><button type="button" class="main-button">Marketing</button></li>
       </ul>
-        <ul class="list">
-          <li>
+        <ul class="list main-content">
+          <li class="item">
             <a href=".app" class="link"
               ><img
                 src="./images/portfolio-img-1.jpg"
                 alt="Banking App Interface Concept" width="360" height="300"
-            /><h2 class="section-header">Banking App Interface Concept</h2>
-            <p class="section-par">App</p></a>
+            />
+            <div class="section-border">
+              <h2 class="section-header">Banking App Interface Concept</h2>
+              <p class="section-par">App</p></a>
+            </div>
           </li>
-          <li>
+          <li class="item">
             <a href=".marketing" class="link"
               ><img src="./images/portfolio-img-2.jpg" alt="Cashless Payment" width="360" height="300"
-            /><h2 class="section-header">Cashless Payment</h2>
-            <p class="section-par">Marketing</p></a>
+            />
+            <div class="section-border">
+              <h2 class="section-header">Cashless Payment</h2>
+              <p class="section-par">Marketing</p></a>
+            </div>
           </li>
-          <li>
+          <li class="item">
             <a href=".app" class="link"
               ><img src="./images/portfolio-img-3.jpg" alt="Meditation App" width="360" height="300"
-            /><h2 class="section-header">Meditation App</h2>
-            <p class="section-par">App</p></a>
+            />
+            <div class="section-border">
+              <h2 class="section-header">Meditation App</h2>
+              <p class="section-par">App</p></a>
+            </div>
           </li>
-          <li>
+          <li class="item">
             <a href=".marketing" class="link"
               ><img src="./images/portfolio-img-4.jpg" alt="Taxi Service" width="360" height="300"
-            /><h2 class="section-header">Taxi Service</h2>
-            <p class="section-par">Marketing</p></a>
+            />
+          <div class="section-border">
+              <h2 class="section-header">Taxi Service</h2>
+              <p class="section-par">Marketing</p></a>
+          </div>
           </li>
-          <li>
+          <li class="item">
             <a href=".design" class="link"
               ><img
                 src="./images/portfolio-img-5.jpg" width="360" height="300"
                 alt="Screen Illustrations"
-            /><h2 class="section-header">Screen Illustrations</h2>
-            <p class="section-par">Design</p></a>
+            />
+            <div class="section-border">
+              <h2 class="section-header">Screen Illustrations</h2>
+              <p class="section-par">Design</p></a>
+            </div>
           </li>
-          <li>
+          <li class="item">
             <a href=".marketing" class="link"
               ><img src="./images/portfolio-img-6.jpg" alt="Online Courses" width="360" height="300"
-            /><h2 class="section-header">Online Courses</h2>
-            <p class="section-par">Marketing</p></a> 
+            />
+            <div class="section-border">
+              <h2 class="section-header">Online Courses</h2>
+              <p class="section-par">Marketing</p></a> 
+              </div>
           </li>
-          <li>
+          <li class="item">
             <a href=".design" class="link"
               ><img
                 src="./images/portfolio-img-7.jpg" width="360" height="300"
                 alt="Instagram Stories Concept"
-            /><h2 class="section-header">Instagram Stories Concept</h2>
-            <p class="section-par">Design</p></a>
+            />
+            <div class="section-border">
+              <h2 class="section-header">Instagram Stories Concept</h2>
+              <p class="section-par">Design</p></a>
+            </div>
           </li>
-          <li>
+          <li class="item">
             <a href=".website" class="link"
               ><img src="./images/portfolio-img-8.jpg" alt="Organic Food" width="360" height="300"
-            /><h2 class="section-header">Organic Food</h2>
-            <p class="section-par">Web Site</p></a>
+            />
+            <div class="section-border">
+              <h2 class="section-header">Organic Food</h2>
+              <p class="section-par">Web Site</p></a>
+            </div>
           </li>
-          <li>
+          <li class="item">
             <a href=".website" class="link"
               ><img src="./images/portfolio-img-9.jpg" alt="Fresh Coffee" width="360" height="300"
-            /><h2 class="section-header">Fresh Coffee</h2>
-            <p class="section-par">Web Site</p></a>
+            />
+            <div class="section-border">
+              <h2 class="section-header">Fresh Coffee</h2>
+              <p class="section-par">Web Site</p></a>
+            </div>
           </li>
         </ul>
       </section>
     </main>
-    <footer class="footer-portfolio">
-      <a href="./index.html" class="footer-logo link">Web<span class="footer-color">Studio</span></a>
-      <p>
-        Increase the flow of customers and sales for your business with digital
-        marketing & growth solutions.
-      </p>
+
+    <footer class="footer">
+      <div class="container">
+        <a href="./index.html" class="footer-logo link">Web<span class="footer-color">Studio</span></a>
+        <p class="footer-par">
+          Increase the flow of customers and sales for your business with digital
+          marketing & growth solutions.
+        </p>
+      </div>
     </footer>
   </body>
 </html>
