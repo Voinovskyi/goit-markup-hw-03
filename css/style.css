@@ -21,6 +21,7 @@ body {
   width: 100%;  
   max-width: 1158px;
   margin: 0 auto;
+  padding: 0 15px;
 }
 
 p, h1, h2, h3, h4, h5, h6 {
@@ -65,6 +66,7 @@ ul, ol {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--primary-brand);
+  margin-right: 46px;
 }
 
 .logo-studio {
@@ -86,6 +88,7 @@ ul, ol {
 .menu{
   display: flex;
   gap: 40px;
+  padding: 24px 0;
 }
 
 .nav-main_link {
