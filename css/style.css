@@ -18,23 +18,22 @@ body {
 }
 
 .visually-hidden {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    margin: -1px;
-    border: 0;
-    padding: 0;
-    white-space: nowrap;
-    clip-path: inset(100%);
-    clip: rect(0 0 0 0);
-    overflow: hidden;
-  }
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
 
 .container {
   width: 1158px;
   margin: 0 auto;
-  padding-left: 15px;
-  padding-right: 15px;
+  padding: 0 15px 0 15px;
 }
 
 p,
@@ -232,8 +231,6 @@ ol {
   width: calc((100% - 48px) / 3);
 }
 
-
-
 /********** SECTION-4 **********/
 
 .our-team {
@@ -351,7 +348,7 @@ ol {
 .main-button:focus {
   color: #ffffff;
   background-color: #404bbf;
-  border: 1px solid transparent
+  border: 1px solid transparent;
 }
 
 .main-content {
@@ -378,6 +375,7 @@ ol {
   letter-spacing: 0.02em;
   color: var(--dark);
   padding: 32px 0 0 16px;
+  margin-bottom: 8px;
 }
 
 .section-par {
