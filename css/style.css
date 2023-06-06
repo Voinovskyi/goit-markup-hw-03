@@ -148,6 +148,7 @@ ol {
   color: var(--white-background);
   max-width: 496px;
   margin: 0 auto;
+  padding-bottom: 64px;
 }
 
 .main-hero_btn {
