@@ -97,7 +97,6 @@ ol {
 .header-menu {
   display: flex;
   justify-content: space-between;
-  padding: 24px 0;
 }
 
 .navigation {
@@ -108,6 +107,7 @@ ol {
 .menu {
   display: flex;
   gap: 40px;
+  padding: 24px 0;
 }
 
 .nav-main_link {
@@ -127,6 +127,7 @@ ol {
 
 .header-call {
   font-style: normal;
+  padding: 24px 0;
 }
 
 .menu-adress {
