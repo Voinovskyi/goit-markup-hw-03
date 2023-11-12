@@ -61,6 +61,10 @@ ol {
 
 /**********HEADER**********/
 
+.header-main {
+  border-bottom: 1px solid #e7e9fc;
+}
+
 .header-menu {
   display: flex;
   justify-content: space-between;
@@ -90,7 +94,6 @@ ol {
   list-style: none;
   display: flex;
   gap: 40px;
-  padding: 24px 0;
 }
 
 .nav-list_link {
@@ -99,6 +102,7 @@ ol {
   line-height: 24px;
   letter-spacing: 0.32px;
   color: #2e2f42;
+  padding: 24px 0;
 }
 
 .nav-list_link:hover,
@@ -162,6 +166,7 @@ ol {
   border-radius: 4px;
   border: none;
   margin: 0 auto;
+  min-width: 169px;
 }
 
 .main-hero_btn:hover,
@@ -253,7 +258,7 @@ ol {
 /**********Section4-Portfolio**********/
 
 .portfolio {
-  padding: 120px;
+  padding: 120px 0 120px 0;
 }
 
 .portfolio-title {
@@ -300,7 +305,17 @@ ol {
 
 .footer-main {
   background-color: #2e2f42;
-  padding: 100px 156px;
+  padding: 100px 0;
+}
+
+.logo-footer {
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
 }
 
 .footer-logo_studio {
@@ -312,6 +327,6 @@ ol {
   font-size: 16px;
   line-height: 24px;
   letter-spacing: 0.32px;
-  width: 264px;
+  max-width: 264px;
   padding-top: 18px;
 }
